@@ -1,0 +1,37 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/main.uss?fileID=7433441132597879392&amp;guid=82a601d5c6f62bd48b3fc9572198c434&amp;type=3#main" />
+    <ui:VisualElement style="justify-content: space-around; align-items: flex-end; flex-direction: column-reverse; height: 100%;">
+        <ui:GroupBox name="SideMenu" class="side-menu" style="width: 30%; height: 100%; position: relative; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0;">
+            <ui:Label text="ui_selected_title" display-tooltip-when-elided="true" enable-rich-text="true" style="height: 3%; -unity-text-align: middle-left; width: 100%; white-space: nowrap; -unity-font: url(&apos;project://database/Assets/Fonts/Play-Bold.ttf?fileID=12800000&amp;guid=de69ea3a66bd8634f84368562a7a3f4e&amp;type=3#Play-Bold&apos;); -unity-font-style: normal;" />
+            <ui:VisualElement style="overflow: visible; position: relative; height: 3%; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; -unity-background-image-tint-color: rgb(217, 217, 217); background-image: url(&apos;project://database/Assets/Sprites/BG/gray-50.png?fileID=21300000&amp;guid=345c7419a477d4a45a5efb3902abe746&amp;type=3#gray-50&apos;); -unity-slice-left: 0; -unity-background-scale-mode: stretch-to-fill; translate: 0 0; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; -unity-text-align: middle-center; display: flex;">
+                <ui:Label text="Buy" display-tooltip-when-elided="true" style="top: 2%; font-size: 15px; white-space: normal; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0;" />
+            </ui:VisualElement>
+            <ui:VisualElement name="buy-menu" style="flex-wrap: wrap; flex-direction: row; flex-shrink: initial; flex-grow: initial; height: 30%; display: flex; flex-basis: auto;">
+                <ui:VisualElement style="width: 50%;">
+                    <ui:Button text="Button" display-tooltip-when-elided="true" name="delete-button" class="gun-butt" style="flex-grow: 1;" />
+                    <ui:Button text="Button" display-tooltip-when-elided="true" name="delete-button" class="gun-butt" style="flex-grow: 1;" />
+                </ui:VisualElement>
+                <ui:VisualElement style="width: 50%;">
+                    <ui:Button text="Button" display-tooltip-when-elided="true" name="delete-button" class="gun-butt" />
+                    <ui:Button text="Button" display-tooltip-when-elided="true" name="delete-button" class="gun-butt" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement style="height: 3%; background-color: rgb(110, 109, 110);">
+                <ui:Label text="Upgrade" display-tooltip-when-elided="true" style="margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; -unity-text-align: middle-center;" />
+            </ui:VisualElement>
+            <ui:VisualElement name="upgrade-menu" style="width: 100%; height: 20%; flex-direction: row; flex-grow: 0; flex-shrink: 0;">
+                <ui:VisualElement name="upgrade-current" style="width: 50%; height: 100%; flex-shrink: 0; flex-grow: 1;">
+                    <ui:VisualElement style="width: 100%; height: 50%;">
+                        <ui:Label text="Урон +20%\nСкорострельность +20%" display-tooltip-when-elided="true" />
+                    </ui:VisualElement>
+                    <ui:VisualElement style="width: 100%; height: 50%;">
+                        <ui:Label text="Стоимость: 30" display-tooltip-when-elided="true" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+                <ui:VisualElement style="height: 100%; width: 50%; padding-left: 10px; padding-right: 10px; padding-top: 10px; padding-bottom: 10px; align-items: center; justify-content: center;">
+                    <ui:Button text="Upgrade!" display-tooltip-when-elided="true" name="up-btn" style="height: 80%; width: 50%; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; justify-content: flex-start; align-items: center;" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:GroupBox>
+    </ui:VisualElement>
+</ui:UXML>

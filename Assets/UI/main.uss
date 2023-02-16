@@ -1,0 +1,19 @@
+.side-menu {
+    -unity-background-image-tint-color: rgb(255, 255, 255);
+    background-image: url('project://database/Assets/Sprites/BG/gray-50.png?fileID=21300000&guid=345c7419a477d4a45a5efb3902abe746&type=3#gray-50');
+    background-color: rgb(255, 255, 255);
+    transform-origin: center;
+    rotate: 0;
+}
+
+.gun-butt {
+    width: 95%;
+    height: 30%;
+    flex-grow: 1;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-shrink: 0;
+    flex-basis: 0;
+    visibility: visible;
+    font-size: 20px;
+}

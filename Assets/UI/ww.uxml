@@ -1,0 +1,8 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:VisualElement style="justify-content: space-around; align-items: flex-end; flex-direction: column-reverse; height: 100%;">
+        <ui:GroupBox name="SideMenu" style="width: 30%; height: 100%;">
+            <ui:Label text="ui_selected_title" display-tooltip-when-elided="true" enable-rich-text="true" style="height: 3%; -unity-text-align: middle-left; width: 100%; white-space: nowrap; -unity-font: url(&apos;project://database/Assets/Fonts/Play-Bold.ttf?fileID=12800000&amp;guid=de69ea3a66bd8634f84368562a7a3f4e&amp;type=3#Play-Bold&apos;); -unity-font-style: normal;" />
+            <ui:Label text="Label" display-tooltip-when-elided="true" style="top: 2%;" />
+        </ui:GroupBox>
+    </ui:VisualElement>
+</ui:UXML>
